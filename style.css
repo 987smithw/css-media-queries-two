@@ -1,0 +1,67 @@
+a {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+/*
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+*/
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+
+@media screen and (max-width:1000px) {
+  /* These rules are applied for devices greater than or equal to 768 */
+  .box {
+  display: inline;
+    padding: 2px;
+}
+  img {
+    display: none;
+  }
+  }
+
+
+.box {     width:49%;  }
+
+
+.box {
+
+  margin: 0;
+}
+
+.box {
+  background-color: #000;
+  color: #fff;
+  font-family: arial, sans-serif;
+  
+}
+
+
+.wrapper {
+  width: 100%;
+
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+display: block;
+height: 200px;
+width: 100%;
+background-color: grey;
+}
